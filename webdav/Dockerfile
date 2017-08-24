@@ -23,7 +23,7 @@ RUN a2ensite webdav
 
 ADD run.sh /
 
-EXPOSE 80
+EXPOSE 80 8080
 
 VOLUME /var/webdav
 
